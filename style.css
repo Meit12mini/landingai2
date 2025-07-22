@@ -363,7 +363,7 @@ textarea {
 }
 
 textarea {
-  max-width: 354px;
+
   min-height: 144px;
   resize: vertical;
 }
@@ -505,7 +505,8 @@ select[multiple] option.selected {
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 }
-input:focus {
+input:focus,
+textarea:focus {
     border-color: #42e0be;
     box-shadow: 0 0 0 3px rgba(66,224,190, 0.2);
 }
